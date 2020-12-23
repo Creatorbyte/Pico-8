@@ -1,5 +1,18 @@
 -- table stuff demo by creatorbyte
 
+--Alternative
+--function make_actor()
+-- local x,y=0,0
+-- return {
+--   draw=function(self) 
+--    spr(42,x,y)
+--   end,
+--  update=function(self)
+--    x+=1
+--   end
+--}
+--end
+
 actors = {} --a table to store all the actors
 
 -- a function to make a new actor 
